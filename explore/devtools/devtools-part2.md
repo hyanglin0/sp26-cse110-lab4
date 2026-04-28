@@ -1,0 +1,2 @@
+1. The bug was that the inputs num1 and num2 are strings, so the expression `num1 + num2` performs concatenation instead of addition.
+2. I would fix it by calling Number on num1 and num2 to convert them from strings to numbers.
